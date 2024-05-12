@@ -1,0 +1,64 @@
+body{
+    background-color: #B8D8BA;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20px;
+    background-color: #D9DBBC;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+font-size: 20px;
+font-weight: bold;
+    color: rgb(78, 66, 55);
+}
+#reset{
+    background-color: brown;
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 15px;
+    font-weight: 500;
+}
+.winner {
+    height: auto; /* Adjust height based on content */
+    width: auto; /* Adjust width based on content */
+    padding: 10px; /* Add some padding for better spacing */
+    background-color: #FCDDBC; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333; /* Text color */
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    font-size: large; /* Adjust font size */
+}
+
+.w-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
