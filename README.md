@@ -1,29 +1,26 @@
-# Tic Tac Toe Game
+# Currency Converter
 
-This is a simple implementation of the classic Tic Tac Toe game using HTML, CSS, and JavaScript.
+## Overview
+
+This Currency Converter is a web application built using HTML, CSS, and JavaScript that allows users to convert one currency to another using real-time exchange rates. The application provides a simple and user-friendly interface where users can select currencies, input an amount, and instantly see the converted value.
 
 ## Features
 
-- Players can take turns to place their marks (X or O) on a 3x3 grid.
-- The game checks for a winner after each move and displays a message if a player wins.
-- There's a reset button to clear the board and start a new game.
+- **Real-Time Exchange Rates:** Fetches and displays the most up-to-date exchange rates.
+- **Multiple Currency Support:** Supports conversion between various global currencies.
+- **Responsive Design:** The interface is designed to be user-friendly and functional on both desktop and mobile devices.
+- **Error Handling:** Displays appropriate messages for invalid inputs or issues with fetching exchange rates.
 
-## How to Play
+## Technologies Used
 
-1. Open the `index.html` file in a web browser.
-2. Click on any empty box on the grid to place your mark.
-3. The game alternates between 'X' and 'O' marks for each player.
-4. The game will automatically detect a winner and display a message.
-5. To start a new game, click the "Reset" button.
+- **HTML:** Provides the structure of the web application.
+- **CSS:** Used for styling the application, ensuring a clean and modern user interface.
+- **JavaScript:** Handles the logic for fetching exchange rates, performing currency conversions, and updating the DOM in real-time.
 
-## File Structure
+## Installation
 
-- `index.html`: Contains the HTML structure of the game.
-- `styles.css`: Contains the CSS styles for the game layout and design.
-- `script.js`: Contains the JavaScript code for the game logic.
+No installation is required. Simply clone the repository and open the `index.html` file in any modern web browser.
 
-## Contributing
-
-Contributions are welcome! Feel free to submit issues and pull requests to help improve the game.
-
-
+```bash
+git clone https://github.com/yourusername/currency-converter.git
+cd currency-converter
